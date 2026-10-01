@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "PlayWrite";
+    src: url("../assets/fonts/Playwrite.ttf");
+}
+
+@font-face {
+    font-family: "Hindi";
+    src: url("../assets/fonts/Poppins.ttf");
+}
+
+body {
+    font-family: "PlayWrite";
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-style: italic
+}
+
+.hindiContent {
+    font-family: "Hindi";
+}
+
+.onlineFont {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    /* text-decoration: underline wavy red; */
+    text-transform: capitalize;
+    text-indent: 50px;
+    color: #000000;
+}
+
+#nav {
+    font-size: 30px;
+    color: black;
+    text-decoration: underline dashed green;
+}
+
+.uppercase {
+    text-transform: capitalize;
+}
+
+ul {
+    list-style: none;
+}
+
+.ri-map-pin-line {
+    font-size: 50px;
+    color: brown;
+}
+
+.instagram {
+    text-decoration: none;
+    color: red;
+}
