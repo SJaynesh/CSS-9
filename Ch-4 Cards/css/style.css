@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    height: 400px;
+    width: 550px;
+    background-color: #E5E6EF;
+    margin: 25px auto;
+    border-radius: 22px;
+    padding: 8px 12px;
+
+}
+
+.thumbnail {
+    height: 300px;
+    width: 100%;
+    /* background-color: brown; */
+    border-radius: 22px;
+    background-image: url("..//assets/images/tera-chehra.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.heading-section {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ri-more-2-line {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.description {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: gray;
+    margin-top: 5px;
+}
