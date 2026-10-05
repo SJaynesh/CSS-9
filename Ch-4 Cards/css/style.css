@@ -47,3 +47,52 @@
     color: gray;
     margin-top: 5px;
 }
+
+.team-card {
+    height: 450px;
+    width: 300px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    border: 5px solid #2864D1;
+    border-radius: 20px;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.team-card h2 {
+    font-size: 35px;
+}
+
+.team-card .profile {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.photo {
+    height: 100px;
+    width: 100px;
+    border: 3px solid green;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("https://avatars.githubusercontent.com/u/115562979?v=4");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.profile h4 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.profile .ri-code-s-slash-line {
+    color: orange;
+}
+
+.profile p {
+    color: grey;
+    letter-spacing: 1px;
+}
