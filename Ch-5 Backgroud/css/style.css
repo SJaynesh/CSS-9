@@ -43,3 +43,53 @@
     background-position: center;
     background-attachment: fixed;
 }
+
+.card {
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(151deg, #C6FFDD, #FBD786, #f7797d);
+    /* background: radial-gradient(#C6FFDD, #FBD786, #f7797d); */
+    /* background: conic-gradient(#FBD786, #f7797d, purple, #C6FFDD); */
+    margin: 20px auto;
+    /* border-radius: 50%; */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    /* display: none; */
+    display: inline-block;
+}
+
+.white-font-color {
+    color: white;
+}
+
+.f-s-22 {
+    font-size: 22px;
+}
+
+.f-s-18 {
+    font-size: 18px;
+}
+
+.f-s-14 {
+    font-size: 14px;
+}
+
+h1 {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+h3 {
+    display: none;
+}

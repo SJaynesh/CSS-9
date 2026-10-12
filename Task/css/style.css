@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.thehosteller.com/_next/image/?url=https%3A%2F%2Fstatic.thehosteller.com%2Fhostel%2Fimages%2Ffeat.jpg%2Ffeat-1720738119071.jpg&w=2048&q=75");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(11, 11, 11, 0.304);
+    border-radius: 20px;
+    padding: 40px 0;
+}
+
+.header p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
